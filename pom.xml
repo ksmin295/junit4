@@ -464,6 +464,9 @@
 		        <groupId>org.codehaus.mojo</groupId>
 		        <artifactId>cobertura-maven-plugin</artifactId>
 		        <version>2.7</version>
+		        <configuration>
+		       		<formats>xml</formats>
+		       	</configuration>
 		    </plugin>
         </plugins>
     </reporting>
